@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="assets/style/style.css" />
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="assets/img/logo.png"
+            alt="Bootstrap"
+            width="30"
+            height="24"
+          />
+        </a>
+        <a class="navbar-brand" href="#">Home</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >My Project</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <button class="btn btn-outline-danger" type="submit">
+              Contact Me
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- MAIN CONTENT -->
+    <main>
+      <div class="container-contact">
+      <div class="contact-me">
+        <h2 style="text-align: center; margin-top: 20px; margin-bottom: 20px">
+          Get In Touch
+        </h2>
+        <div class="mb-3" style="font-weight: bold;">
+          <label for="exampleFormControlInput1" class="form-label">Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder=""
+          />
+        </div>
+        <div class="mb-3" style="font-weight: bold;">
+          <label for="exampleFormControlInput2" class="form-label">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput2"
+            placeholder=""
+          />
+        </div>
+        <div class="mb-3" style="font-weight: bold;">
+          <label for="exampleFormControlInput3" class="form-label"
+            >Phone Number</label
+          >
+          <input
+            type="telephone"
+            class="form-control"
+            id="exampleFormControlInput3"
+            placeholder=""
+          />
+        </div>
+        <label for="subject" style="margin-bottom: 10px; font-weight: bold;">Subject</label>
+        <select
+          class="form-select form-select mb-3"
+          aria-label="Large select example"
+          name="subject"
+          id="subject"
+        >
+          <option selected></option>
+          <option value="1">Fullstack Dev</option>
+          <option value="2">Front End Dev</option>
+          <option value="3">Back End Dev</option>
+        </select>
+
+        <div class="mb-3" style="font-weight: bold;">
+          <label for="exampleFormControlTextarea1" class="form-label"
+            >Your Message</label
+          >
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+          ></textarea>
+        </div>
+        <div class="button-submit">
+          <input class="btn btn-dark" type="submit" value="Submit" />
+        </div>
+      </div>
+    </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js
+"></script>
+  </body>
+</html>
